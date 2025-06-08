@@ -20,7 +20,7 @@ class Start extends Phaser.Scene {
         this.input.keyboard.on('keydown-TWO', () => {
             this.showingControls = !this.showingControls;
             if (this.showingControls) {
-                this.controls.setText('[1] credits\ncontrols: [a] left  [d] right  [space] jump/double jump  [d] down');
+                this.controls.setText('[1] credits\ncontrols: [a] left  [d] right  [space] jump/double jump  [s] down');
             } else {
                 this.controls.setText('[1] credits\n[2] controls');
             }
